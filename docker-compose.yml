@@ -67,8 +67,8 @@ services:
       - cvat
       - cvat_ui
     environment:
-      # CVAT_HOST: localhost
-      CVAT_HOST: https://kubeflow.dev-initial.at-sicunis-kubeflow.de/
+      CVAT_HOST: localhost
+      # CVAT_HOST: https://kubeflow.dev-initial.at-sicunis-kubeflow.de/
       # CVAT_HOST: arn:aws:eks:eu-central-1:287556734123:cluster/dev-initial
     ports:
       - '8080:80'
