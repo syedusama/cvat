@@ -40,7 +40,7 @@ spec:
           - name: CVAT_REDIS_HOST
             value: "cvat-redis-service"
           - name: CVAT_POSTGRES_HOST
-            value: "cvat-postgres-service"
+            value: "dev-cvat-kubeflow.cprystttyrq8.eu-central-1.rds.amazonaws.com"
           - name: CVAT_POSTGRES_USER
             valueFrom:
               secretKeyRef:
